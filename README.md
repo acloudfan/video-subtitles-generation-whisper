@@ -24,13 +24,13 @@ docker build -t subtitle-with-whisper .
 
 # Usage
 
-1. Setup an environment variable that points at a folder that contains the videos. Subtitles will be generated for all the *.mp4* in all subfolders of the specified *VFOLDER*.
+1. Run the Docker deamon
+
+2. Setup an environment variable that points at a folder that contains the videos. All subfolders of the specified folder will be searched for *.mp4* files. Subtitles will be generated for all the *.mp4* in all subfolders of the specified *VFOLDER*.
 
    ```
    export VFOLDER=/mnt/c/Users/raj/Documents/my-videos
    ```
-2. Run the Docker deamon
-
 3. Generate the subtitles for your .mp4 videos
 
 ```
