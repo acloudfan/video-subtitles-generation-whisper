@@ -1,5 +1,5 @@
-# The docker container is used for generating the subtitles for .mp4 videos
-# https://genai.acloudfan.com
+### The docker container is used for generating the subtitles for .mp4 videos
+https://genai.acloudfan.com
 
 # openai-whisper
 https://pypi.org/project/openai-whisper/
@@ -38,15 +38,19 @@ docker run -v $VFOLDER:/home/videos  -a STDERR -a STDOUT  subtitle-with-whisper
 ```
 
 ---
+READ below this ONLY, if you are learning how the subtitles are getting generated !!
 
 # generate.py
 Main file for generation of the subtitles.
 
 Here’s a usage documentation for the script, explaining its purpose, functionality, and instructions for running it:
 
----
+
 
 # Subtitle Generation Script Documentation
+
+### generate.py
+It is in the docuker file.
 
 ## Overview
 
